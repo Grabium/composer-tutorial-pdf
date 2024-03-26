@@ -1,0 +1,9 @@
+possuir o php instalado.
+Habilitar o extrator do php descomentando-o no arquivo 'php.ini' na linha ';extencion=zip' retirnado o ';'
+
+GIT
+Se necessário, iniciar o git (dentro do prompt do GitKraken, recomendo):
+PS C:\projetos raiz\composer-tutorial-pdf> git init
+Iniciar o repositorio local pelo gitKraken e confirmar a notificação do init
+Iniciar o Remote também pelo gitKraken
+
