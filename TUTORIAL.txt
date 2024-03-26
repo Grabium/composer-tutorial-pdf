@@ -87,3 +87,10 @@ Using version ^2.0 for dompdf/dompdf
 PS C:\projetos raiz\composer-tutorial-pdf> 
 
 
+INSTALAR AS DEPENDÊNCIAS REQUISITADAS:
+PS C:\projetos raiz\composer-tutorial-pdf> composer install
+Installing dependencies from lock file (including require-dev)
+Verifying lock file contents can be installed on current platform.
+Nothing to install, update or remove
+Generating autoload files
+PS C:\projetos raiz\composer-tutorial-pdf> 
