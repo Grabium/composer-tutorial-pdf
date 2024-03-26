@@ -110,3 +110,18 @@ https://packagist.org/packages/dompdf/dompdf
 há instruções de como usar as funções da dependência a partir do "Quick Start" e "Setting Options".
 
 
+
+SERVIR A APLICAÇÃO:
+
+PS C:\projetos raiz\composer-tutorial-pdf> php -S localhost:8000
+[Tue Mar 26 08:31:58 2024] PHP 8.2.0 Development Server (http://localhost:8000) started
+
+
+CONSUMIR A APLICAÇÃO:
+
+Não esquecer que o index não está na pasta raiz (localhost:8000/) mas no /src:
+link que força o download do pdf:
+localhost:8000/src
+
+
+
