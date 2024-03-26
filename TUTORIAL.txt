@@ -5,5 +5,57 @@ GIT
 Se necessário, iniciar o git (dentro do prompt do GitKraken, recomendo):
 PS C:\projetos raiz\composer-tutorial-pdf> git init
 Iniciar o repositorio local pelo gitKraken e confirmar a notificação do init
-Iniciar o Remote também pelo gitKraken
+Iniciar o Remote também pelo gitKraken.
+
+
+Composer INIT
+PS C:\projetos raiz\composer-tutorial-pdf> composer init
+
+
+  Welcome to the Composer config generator  
+
+
+
+This command will guide you through creating your composer.json config.
+
+Package name (<vendor>/<name>) [gabriel/composer-tutorial-pdf]: gabriel/composer-tutorial-pdf
+Description []: 'Tutorial do curso de composer utilisando como exemplo o projeto dompdf/dompdf'
+Author [Gabriel <110872805+Grabium@users.noreply.github.com>, n to skip]: 
+Minimum Stability []: 
+Package Type (e.g. library, project, metapackage, composer-plugin) []: 
+License []: 
+
+Define your dependencies.
+
+Would you like to define your dependencies (require) interactively [yes]? yes
+Search for a package: 
+Would you like to define your dev dependencies (require-dev) interactively [yes]? no
+Add PSR-4 autoload mapping? Maps namespace "Gabriel\ComposerTutorialPdf" to the entered relative path. [src/, n to skip]: 
+
+{
+    "name": "gabriel/composer-tutorial-pdf",
+    "description": "'Tutorial do curso de composer utilisando como exemplo o projeto dompdf/dompdf'",    "autoload": {
+        "psr-4": {
+            "Gabriel\\ComposerTutorialPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "110872805+Grabium@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
+
+Do you confirm generation [yes]? yes
+Generating autoload files
+Generated autoload files
+Would you like the vendor directory added to your .gitignore [yes]?
+PSR-4 autoloading configured. Use "namespace Gabriel\ComposerTutorialPdf;" in src/
+Include the Composer autoloader with: require 'vendor/autoload.php';
+PS C:\projetos raiz\composer-tutorial-pdf> 
+
+
+
 

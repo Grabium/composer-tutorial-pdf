@@ -1,0 +1,16 @@
+{
+    "name": "gabriel/composer-tutorial-pdf",
+    "description": "'Tutorial do curso de composer utilisando como exemplo o projeto dompdf/dompdf'",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\ComposerTutorialPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "110872805+Grabium@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
