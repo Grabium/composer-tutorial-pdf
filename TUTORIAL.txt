@@ -56,6 +56,34 @@ PSR-4 autoloading configured. Use "namespace Gabriel\ComposerTutorialPdf;" in sr
 Include the Composer autoloader with: require 'vendor/autoload.php';
 PS C:\projetos raiz\composer-tutorial-pdf> 
 
+BUSCAR O PROJETO NO SITE:
+https://packagist.org
 
+Buscar o projeto dompdf/dompdf no site apra mais instruções.
+Por enquanto, basta fazer o 'require' da dependência.
+PS C:\projetos raiz\composer-tutorial-pdf> composer require dompdf/dompdf
+./composer.json has been updated
+Running composer update dompdf/dompdf
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 5 installs, 0 updates, 0 removals
+  - Locking dompdf/dompdf (v2.0.4)
+  - Locking masterminds/html5 (2.8.1)
+  - Locking phenx/php-font-lib (0.5.6)
+  - Locking phenx/php-svg-lib (0.5.3)
+  - Locking sabberworm/php-css-parser (v8.5.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 5 installs, 0 updates, 0 removals
+  - Installing sabberworm/php-css-parser (v8.5.1): Extracting archive
+  - Installing phenx/php-svg-lib (0.5.3): Extracting archive
+  - Installing phenx/php-font-lib (0.5.6): Extracting archive
+  - Installing masterminds/html5 (2.8.1): Extracting archive
+  - Installing dompdf/dompdf (v2.0.4): Extracting archive
+3 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+No security vulnerability advisories found
+Using version ^2.0 for dompdf/dompdf
+PS C:\projetos raiz\composer-tutorial-pdf> 
 
 

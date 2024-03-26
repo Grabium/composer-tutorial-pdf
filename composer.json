@@ -12,5 +12,7 @@
             "email": "110872805+Grabium@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
 }
