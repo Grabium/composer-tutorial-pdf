@@ -1,3 +1,10 @@
+CASO NÃO SEJA OP SUFICIENTE VC PODE ACESSAR:
+https://kinsta.com/pt/blog/criar-pacote-composer/
+NESTE LINK ENSINA-SE A POSTAR O PROJETO NO PACKAJEST 
+
+
+
+
 possuir o php instalado.
 Habilitar o extrator do php descomentando-o no arquivo 'php.ini' na linha ';extencion=zip' retirnado o ';'
 
